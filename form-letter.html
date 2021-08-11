@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/form-letter.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/form-letter.js"></script>
+  <title>Beverages</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Buy a Product!</h1>
+      <form id="formOne">
+
+        <select class="form-control" id="beverage">
+          <option value="1">Coffee $1</option>
+          <option value="2">Tea $2</option>
+          <option value="3">Kombucha $3</option>
+          <option value="4">Water $4</option>
+        </select>
+
+        <div class="form-group">
+          <label for="nameAdd">Name</label>
+          <input id="nameAdd" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="homeAdd">Street Address</label>
+          <input id="homeAdd" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="cityAdd">City</label>
+          <input id="cityAdd" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="stateAdd">State</label>
+          <input id="stateAdd" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="zipAdd">ZIP</label>
+          <input id="zipAdd" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="dateAdd">Date Written</label>
+          <input id="dateAdd" class="form-control" type="text">
+        </div>
+
+        <button type="submit" class="btn">Buy Now</button>
+      </form>
+
+    <div id="letter">
+      <h1>Your Order Confirmation:</h1>
+      <p>
+        Thanks for buying <span class="outputBev"></span>
+        <br>
+        <span class="nameAdd"></span>
+        <br>
+        <span class="homeAdd"></span>
+        <br>
+        <span class="cityAdd"></span>
+        <span class="stateAdd"></span>
+        <span class="zipAdd"></span>
+        <br>
+        <span class="dateAdd"></span>
+
+        
+      </p>
+    </div>
+  </div>
+</body>
+
+</html>

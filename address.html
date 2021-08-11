@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>Calculator</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/address.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/address.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Enter a new Contact</h1>
+    <p>Press contact name to show or hide.</p>
+
+    <form id="formOne">
+
+      <div class="form-group">
+        <label for="nameAdd">Name</label>
+        <input id="nameAdd" class="form-control" type="text">
+      </div>
+
+      <div class="form-group">
+        <label for="addressAdd">Address</label>
+        <input id="addressAdd" class="form-control" type="text">
+      </div>
+
+      <div class="form-group">
+        <label for="phoneAdd">Phone</label>
+        <input id="phoneAdd" class="form-control" type="text">
+      </div>
+      <!-- <div class="form-group">
+        <label for="homeAdd">Street Address</label>
+        <input id="homeAdd" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="cityAdd">City</label>
+        <input id="cityAdd" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="stateAdd">State</label>
+        <input id="stateAdd" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="zipAdd">ZIP</label>
+        <input id="zipAdd" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="dateAdd">Date Written</label>
+        <input id="dateAdd" class="form-control" type="text">
+      </div> -->
+
+      <button type="submit" class="btn">Add Contact</button>
+    </form>
+
+    <!-- <button class="btn btn-primary" id="hello">Say "hello"</button>
+    <button class="btn btn-inverse" id="goodbye">Say "goodbye"</button>
+    <button class="btn btn-danger" id="stop">Say "stop copying me!"</button>
+    <button class="btn" id="salad">Say "SaLaD"</button>
+    <button class="btn" id="doge">Say "bOrk"</button>
+    <button class="btn" id="cat">Say "mrowr"</button>
+    <button class="btn" id="walrus-img">Click 4 Pic</button> -->
+
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Contacts:</h2>
+        <div >
+          <!-- <p id="name"></p> -->
+          <ul id="name">
+            <li id="address"></li>
+            <li id="phone"></li>
+          </ul>
+        </div>  
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>

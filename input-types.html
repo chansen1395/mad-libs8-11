@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/input-types.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/input-types.js"></script>
+  <title>A fantastical adventure</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Choose your favorites:</h1>
+    <div>
+      <form id="formOne">
+        <select class="form-control" id="beverage">
+          <option>Coffee</option>
+          <option>Tea</option>
+          <option>Kombucha</option>
+          <option>Water</option>
+        </select>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+      <div id="outputBev">
+      </div>
+
+      <form id="formTwo">
+        <div class="radio">
+          <label>
+            <input type="radio" name="flavor" value="chocolate" checked>
+            Chocolate
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="flavor" value="vanilla">
+            Vanilla
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="flavor" value="cookiesandcream">
+            Cookies & Cream
+          </label>
+        </div>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+      <div id="outputFlav">
+      </div>
+
+      <form id="formThree">
+        <div class="form-group">
+          <label for="born">Date of birth:</label>
+          <input id="born" class="form-control" type="date">
+        </div>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+      <div id="outputDOB">
+      </div>
+
+      <form id="formFour">
+        <div class="form-group">
+          <label for="color">What is your favorite color?</label>
+          <input id="color" class="form-control" type="color">
+        </div>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+      <div id="outputColor">
+      </div>
+
+
+    </div>
+
+  </div>
+</body>
+
+</html>
